@@ -1,0 +1,13 @@
+# Git Specific files
+.git
+.gitignore
+
+# Containerization specific files
+Dockerfile
+docker-compose
+bin/
+
+# Development specific files
+test/
+../../../../../../Library/Application Support/JetBrains/IntelliJIdea2020.2/scratches/.env
+

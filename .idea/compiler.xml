@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="investment-service" />
+        <module name="users-service" />
+        <module name="service-registry" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="8" />
+      <module name="investment-service" target="8" />
+      <module name="project-service" target="8" />
+      <module name="service-registry" target="8" />
+      <module name="users-service" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="investment-service" options="-parameters" />
+      <module name="project-service" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
+      <module name="users-service" options="-parameters" />
+    </option>
+  </component>
+</project>
